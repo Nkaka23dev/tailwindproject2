@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.iconbox_icon { background: transparent !important; }
+
+.box {
+    display: flex;
+  }
+
+  .box > * {
+    flex: 1 1 0;
+  }
